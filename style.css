@@ -1,0 +1,165 @@
+body {
+  background: url("./assets/Background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.tittle {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(245, 245, 245);
+  font-weight: 300;
+  text-shadow: 0 0 6px #0004ff, 0 0 5px #00ffff;
+}
+.tittleimg {
+  width: 20px;
+}
+.containerHead {
+  min-width: 90px;
+}
+
+.card {
+  box-shadow: 0 15px 25px rgba(20, 20, 20, 0.7);
+  margin: 20px;
+
+  border-radius: 5px;
+  backdrop-filter: blur(0px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+.current {
+  min-width: 80px;
+}
+.containerHead {
+  width: 40%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchdiv {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  padding: 5px;
+  padding-top: 5px;
+}
+.searchbar {
+  border-radius: 8px;
+  border-color: rgb(241, 247, 243);
+}
+
+.searchbtn {
+  margin-left: 10px;
+}
+.error {
+  text-align: center;
+  display: none;
+}
+.errormsg {
+  color: #00ff88;
+  font-size: 17px;
+  font-weight: 400;
+}
+.containertwo {
+  /* padding-top: 5%; */
+  display: flex;
+  justify-content: center;
+}
+.city {
+  font-size: 70px;
+  font-weight: 400;
+}
+.icon {
+  /* margin: -20%; */
+  margin-top: -40px;
+}
+.temperature1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: bisque;
+  margin-top: -60px;
+}
+.description1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: bisque;
+}
+.humwin {
+  display: flex;
+}
+.hum {
+  display: flex;
+  padding-right: 10px;
+}
+.imghum {
+  width: 70px;
+}
+.val {
+  font-size: 30px;
+  font-weight: 700;
+}
+.nameval {
+  font-size: 20px;
+  font-weight: 500;
+  color: aliceblue;
+}
+.day2 {
+  display: flex;
+}
+.day2winhum {
+  display: flex;
+  justify-content: center;
+}
+.image2 {
+  width: 30px;
+}
+.icon2 {
+  width: 160px;
+}
+.temperature2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: bisque;
+}
+.secondday {
+  font-size: 20px;
+  font-weight: bold;
+}
+.description2 {
+  font-size: 25px;
+  font-weight: 1000px;
+  color: #75eab5;
+}
+.hum2 {
+  padding-right: 10px;
+}
+.remaining {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.foot {
+  background-color: rgb(47, 43, 43);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+.foot p {
+  font-size: 20px;
+  color: bisque;
+}
+.lgo {
+  width: 30px;
+}
+.cont {
+  padding-left: 60px;
+  display: flex;
+}
+.locnt {
+  padding-left: 15px;
+}

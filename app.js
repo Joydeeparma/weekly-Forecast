@@ -59,4 +59,4 @@ async function weatherData(city) {
   }
 }
 
-weatherData("Hyderabad");
+weatherData("Guwahati");
